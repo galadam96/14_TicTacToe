@@ -36,26 +36,15 @@ int main() {
 	};
 
 	while (1) {
+
 		while (gameRunning == 1) {
+			system("cls"); // Clears the console
 			printf("\t Tic Tac Toe\n \n");
 			printf("Player 1 (X) - Player 2 (O)\n\n");
 			showBoard(board);
 			printf("\nPlayer %i, enter a number: ", playerTurn);
 
-			//printf("\nDEBUG: input is:%i \n", input);
-			//Gives error message for invalid numbers. Valid numbers: 1-9
-			if (showErrorMessageValidNum == 1)
-			{
-				printf("\nInvalid number. Choose from 1 to 9!\n");;
-				showErrorMessageValidNum = 0;
-			}
 
-			if (showErrorMessageOccupied == 1) {
-				printf("\nThis space is already occupied. Choose another one!\n");
-				showErrorMessageOccupied = 0;
-			}
-			input = getInput();
-			updateBoard(board, input, &playerTurn);
 			winner = checkWinner(board);
 			if (winner != ' ') {
 				if (winner == 'X') {
@@ -73,7 +62,22 @@ int main() {
 					break;
 				}
 			}
-			system("cls"); // Clears the console	
+
+			//printf("\nDEBUG: input is:%i \n", input);
+			//Gives error message for invalid numbers. Valid numbers: 1-9
+			if (showErrorMessageValidNum == 1)
+			{
+				printf("\nInvalid number. Choose from 1 to 9!\n");;
+				showErrorMessageValidNum = 0;
+			}
+
+			if (showErrorMessageOccupied == 1) {
+				printf("\nThis space is already occupied. Choose another one!\n");
+				showErrorMessageOccupied = 0;
+			}
+			input = getInput();
+			updateBoard(board, input, &playerTurn);
+			
 		}
 
 		/*New Game choice*/
