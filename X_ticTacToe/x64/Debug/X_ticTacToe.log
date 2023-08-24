@@ -1,0 +1,6 @@
+﻿  ticTacToe.c
+E:\Munkák\Programming\C\14_TicTacToe\X_ticTacToe\ticTacToe.c(77,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+E:\Munkák\Programming\C\14_TicTacToe\X_ticTacToe\ticTacToe.c(77,12): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+E:\Munkák\Programming\C\14_TicTacToe\X_ticTacToe\ticTacToe.c(77,12): message : the missing variadic argument 2 is required by format string '%c'
+E:\Munkák\Programming\C\14_TicTacToe\X_ticTacToe\ticTacToe.c(77,12): message : this argument is used as a buffer size
+  X_ticTacToe.vcxproj -> E:\Munkák\Programming\C\14_TicTacToe\x64\Debug\X_ticTacToe.exe

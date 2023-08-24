@@ -1,0 +1,4 @@
+﻿  ticTacToe.c
+C:\Users\Asus\Desktop\C\X_ticTacToe\X_ticTacToe\ticTacToe.c(27,13): warning C4087: 'showBoard': declared with 'void' parameter list
+C:\Users\Asus\Desktop\C\X_ticTacToe\X_ticTacToe\ticTacToe.c(47,34): warning C4027: function declared without formal parameter list
+  X_ticTacToe.vcxproj -> C:\Users\Asus\Desktop\C\X_ticTacToe\x64\Debug\X_ticTacToe.exe
