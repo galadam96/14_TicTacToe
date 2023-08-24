@@ -1,7 +1,6 @@
 //Date: 2023.08.18
 //Purpose: TicTacToe game for 2 local players in console
 //BUGS: Line 75 New Game Choice: Once you type y or n, you have to do again, it does not recognize the first input. Maybe buffer issue.
-//BUGS: When you win, last character does not get drawn
 //BUGS: Not all rows and columns checks right for winner
 //TBD: Diagonal check for winner
 //TBD: When no more steps is possible, give DRAW text and ask for a new game.
